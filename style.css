@@ -1,0 +1,142 @@
+:root{
+    --font-color: rgb(185, 185, 185);
+    --font-fam: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family: norseBold;
+    src: url(Norsebold.otf);
+}
+@font-face {
+    font-family: norse;
+    src: url(Norse.otf);
+}
+@font-face {
+    font-family: orbitron-light;
+    src: url(orbitron-light.otf);
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+#img-section{
+    position: relative;
+    height: 100vh;
+    width: 40vw;
+}
+#man-image{
+    height: 100vh;
+    width: 35vw;
+}
+#main-section{
+    height: 100vh;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+
+}
+.logo-section{
+    position: absolute;
+    bottom: 440px;
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#logo-name{
+    display: inline-block;
+    color: white;
+    font-family: norseBold;
+    font-size: 2rem;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+#description{
+    color: var(--font-color);
+    padding: 20px;
+
+}
+#description > p{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    margin: 30px;
+    margin-top: 100px;
+    font-family: var(--font-fam);
+    color: var(--font-color);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.inputs{
+    display: flex;
+    gap: 50px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
+.first-row{
+    border: 1px solid red;
+}
+.first-col, .second-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-col, .second-col{
+    color: #B9B9B9;
+}
+
+.first-col > input, .second-col > input{
+    width: 300px;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    border-radius: 2px;
+    height: 20px;
+    color: #B9B9B9;
+}
+.first-col > input:focus, .second-col > input:focus{
+    border: 1px solid #00E5FF;
+    outline: none;
+    box-shadow: 0 0 8px #00E5FF;
+}
+#create{
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: black;
+    color: #00E5FF;
+    border: 3px solid #00E5FF;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+
+}
+#create:hover{
+    color: black;
+    background-color: #00E5FF;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+#log{
+    margin-left: 20px;
+    font-family: "orbitron-light", sans-serif;
+    color: var(--font-color);
+}
+#log > a{
+    text-decoration: none;
+    color: #00E5FF;
+}
