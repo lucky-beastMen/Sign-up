@@ -122,7 +122,7 @@ form{
     border-radius: 3px;
     font-size: 1.2rem;
     font-weight: bolder;
-    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    transition: transform 0.2s ease;
 
 }
 #create:hover{
