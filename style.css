@@ -4,15 +4,15 @@
 }
 @font-face {
     font-family: norseBold;
-    src: url(Norsebold.otf);
+    src: url(fonts/Norsebold.otf);
 }
 @font-face {
     font-family: norse;
-    src: url(Norse.otf);
+    src: url(fonts/Norse.otf);
 }
 @font-face {
     font-family: orbitron-light;
-    src: url(orbitron-light.otf);
+    src: url(fonts/orbitron-light.otf);
 }
 body{
     display: flex;
